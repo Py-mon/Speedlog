@@ -7,17 +7,17 @@ Find out what is taking up time in your code so you can speed it up.
 
 Clone the repository 
 ```
-git clone https://github.com/Py-mon/Timelog.git
+git clone https://github.com/Py-mon/Speedlog.git
 ```
 
 ## Usage
 
 ```
-python timelog.py [file_path] [function_name]
+python speedlog.py [file_path] [function_name]
 ```
 
 ```
-usage: timelog.py [-h] [--decimal_places DECIMAL_PLACES] file function
+usage: speedlog.py [-h] [--decimal_places DECIMAL_PLACES] file function
 
 positional arguments:
   file
@@ -30,5 +30,5 @@ options:
 
 ### Example for This Repository
 ```
-python timelog.py test.py main
+python speedlog.py test.py main
 ```
