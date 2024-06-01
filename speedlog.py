@@ -6,15 +6,11 @@ parser = ArgumentParser()
 
 parser.add_argument("file", type=str)
 parser.add_argument("function", type=str)
-parser.add_argument("--sort", type=str, choices=["cum_time", "time"], default="time")
 parser.add_argument("--decimal_places", type=int, default=5)
-parser.add_argument("--top_results", type=int, default=1000)
 args = parser.parse_args()
 code_file = args.file
 function_name = args.function
 decimal_places = args.decimal_places
-top = args.top_results
-sort = args.sort
 
 file_name = Path(code_file).stem
 

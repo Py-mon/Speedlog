@@ -25,5 +25,3 @@ def main():
 
     # Display the result
     print(f"The sum of prime numbers between {start_range} and {end_range} is {result}")
-
-main()
